@@ -1,37 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>Ricardo Nunes</title>
-</head>
-<body>
-    <div class="main-box">
-        <nav>
-            <h2 class="title">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
-            </ul>
-        </nav>
-        <div class="name">
-            <h1>Ricardo <span>Nunes</span></h1>
-            <h3>Programador</h3>
-        </div>
+  </head>
+  <body>
+    <div class="main-box" id="home">
+      <nav>
+        <h2 class="title">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a class="link-menu" href="#home">Home</a></li>
+          <li><a class="link-menu" href="#sobre">Sobre</a></li>
+          <li><a class="link-menu" href="#projetos">Projetos</a></li>
+          <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+        </ul>
+      </nav>
+      <div class="name">
+        <h1>Ricardo <span>Nunes</span></h1>
+        <h3>Programador</h3>
+      </div>
     </div>
 
-    <section>
-        
+    <section id="sobre">
+      <img src="./img/298310_278982018791063_1445205718_n.jpg" alt="" />
+      <div>
+        <h2>Sobre mim</h2>
+        <p>
+          Com uma sólida trajetória na área financeira e administrativa, sempre me dediquei a encontrar soluções que tornem os processos mais eficientes. Utilizando tanto o Excel de maneira avançada, em conjunto com o Power BI, quanto buscando aprendizado autodidata em linguagens de programação. Além da minha experiência, aprimorei meus conhecimentos ao concluir a graduação em Análise e Desenvolvimento de Sistemas, marcando assim a transição definitiva para a área de desenvolvimento.
+Na minha primeira experiência como desenvolvedor, adquiri uma base utilizando HTML, CSS, JavaScript, Vue, Nuxt, Django, Python e Docker. Neste momento, estou em busca de novos desafios que me permitam aplicar e expandir os conhecimentos adquiridos, demonstrando minha capacidade de adaptação e minha determinação em aprender continuamente. Estou pronto para contribuir de forma positiva em projetos inovadores e evoluir constantemente.
+        </p>
+        <button>Entre em contato</button>
+      </div>
     </section>
-    
-</body>
+
+    <div class="projetos" id="projetos">
+      <h2>Projetos</h2>
+      <div class="card-projetos">
+        <div class="card">
+          <img src="./img/emDesenvolvimento.gif" alt="" />
+          <h5>Em breve</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            explicabo dolores deserunt odio vel commodi non veniam quisquam iure
+            tempora ipsa quod perferendis vitae suscipit dolorum, itaque
+            officia, voluptates eos!
+          </p>
+          <a href="#">Ver projeto</a>
+        </div>
+        <div class="card">
+          <img src="./img/emDesenvolvimento.gif" alt="" />
+          <h5>Em breve</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            explicabo dolores deserunt odio vel commodi non veniam quisquam iure
+            tempora ipsa quod perferendis vitae suscipit dolorum, itaque
+            officia, voluptates eos!
+          </p>
+          <a href="#">Ver projeto</a>
+        </div>
+        <div class="card">
+          <img src="./img/emDesenvolvimento.gif" alt="" />
+          <h5>Em breve</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            explicabo dolores deserunt odio vel commodi non veniam quisquam iure
+            tempora ipsa quod perferendis vitae suscipit dolorum, itaque
+            officia, voluptates eos!
+          </p>
+          <a href="#">Ver projeto</a>
+        </div>
+      </div>
+    </div>
+
+    <footer id="fale-comigo">
+      <h5>Ricardo Nunes</h5>
+      <p>Para mais informações</p>  
+      <div class="social">
+        <a href="https://www.linkedin.com/in/ricardo-nunes-653a75a7/" target="_blank"><img src="./img/linkedin.jpeg" alt=""></a>
+        <a href="tel:+5561981291628"><img src="./img/linkedin.jpeg" alt=""></a>
+      </div>
+    </footer>
+  </body>
 </html>
